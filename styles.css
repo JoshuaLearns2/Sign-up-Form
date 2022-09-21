@@ -1,0 +1,101 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left-side {
+  background-image: url(https://images.unsplash.com/photo-1663623483427-3d9b5d35cc61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 40%;
+  position: relative;
+}
+
+.logo {
+  font-size: 6rem;
+  font-family: 'Cormorant Garamond', serif;;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 50%;
+}
+
+.right-side {
+  width: 70%;
+  height: 100vh;
+  background-color: rgb(197, 167, 122);
+}
+
+.right-top-text {
+  font-family: serif;
+  font-size: 2.5rem;
+  padding: 169px 30px 30px 70px;
+}
+
+.breakfast-font {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.form {
+  background-color: white;
+  box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, .5);
+}
+
+form {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 10%;
+  align-content: center;
+  /* justify-content: center; */
+  padding-left: 70px;
+  height: 30vh;
+}
+
+form label, button {
+  display: block;
+}
+
+.form-cell {
+  text-transform: uppercase;
+  height: max-content;
+  width: max-content;
+}
+
+form input {
+  min-width: 250px;
+  min-height: 25px;
+}
+
+button {
+  transition: 0.3s;
+  font-size: 1.2rem;
+  padding: 10px 32px;
+  margin-bottom: 15px;
+  background-color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+.right-bottom-text {
+  padding: 50px 30px 30px 70px;
+  font-size: 1.1rem;
+}
+
+a {
+  color: black;
+}
+
+
